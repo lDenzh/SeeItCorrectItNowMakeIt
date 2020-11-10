@@ -66,7 +66,17 @@ body {
 .sub-menu-1{
     display: none;
 }
-
+.top-menu ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: #ffffff;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.top-menu ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
 
 /*-----main-----*/
 
