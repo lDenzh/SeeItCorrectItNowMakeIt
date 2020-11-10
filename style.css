@@ -32,8 +32,10 @@
     background-image: url("https://images.unsplash.com/photo-1513258496099-48168024aec0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
 }
 .top-menu{
-   background: #fff;
+    background: #ffffff;
     text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
 .top-menu ul{
     display: inline-flex;
