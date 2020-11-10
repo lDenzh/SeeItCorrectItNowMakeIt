@@ -5,18 +5,17 @@ body {
 *{
   padding: 0;
     margin: 0;
+
 }
+
 
 
 .logo{
-  float: left;
- 
-  padding-left: 10px;
+    float: left;
+
+    padding-left: 10px;
 }
 
-body {
-    font-family: sans-serif;
-}
 
 
 @media (max-width: 330px) {
@@ -26,7 +25,7 @@ body {
         font-size: 4em;
         font-weight: bold;
         color: #ffffff;
-        font-family: verdana , sans-serif;;
+        font-family: 'Poppins', sans-serif;;
 
     }
 }
@@ -51,39 +50,70 @@ body {
 .top-menu ul li{
     width: 120px;
     margin: 15px;
-    padding: 15px;
-}
-
-.active, .top-menu ul li:hover{
-   background: #C0C0C0;
-    border-radius: 3px;
+    padding-top: 15px;
 
 }
 .top-menu ul li a{
     text-decoration: none;
     color: #0b0b0b;
+
 }
+.active, .top-menu ul li:hover{
+    background: gainsboro;
+    border-radius: 3px;
+
+}
+/*----------sub-menu------*/
 .sub-menu-1{
     display: none;
 }
+
 .top-menu ul li:hover .sub-menu-1{
     display: block;
     position: absolute;
     background: #ffffff;
     margin-top: 15px;
-    margin-left: 15px;
+
+
 }
 .top-menu ul li:hover .sub-menu-1 ul{
     display: block;
     margin: 10px;
 }
-
 .top-menu ul li:hover .sub-menu-1 ul li{
     width: 150px;
     padding: 10px;
     border-bottom: 1px dotted #0b0b0b;
     background: transparent;
     text-align: left;
+
+}
+.top-menu ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+
+}
+.top-menu ul li:hover .sub-menu-1 ul li a:hover{
+    color: cadetblue;
+}
+
+/*----------sub-menu-2-----*/
+
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2{
+    position: absolute;
+    display: block;
+    margin-top: -70px;
+    margin-left: 150px;
+    background: gainsboro;
+}
+
+.top-menu ul li:hover .sub-menu-2:hover{
+    position: absolute;
+    background: gainsboro;
+    margin-top: 15px;
+
 
 }
 
@@ -121,3 +151,19 @@ body {
     color: #ffff;
     background-color: #0b0b0b;
 }
+
+
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    float: right;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
