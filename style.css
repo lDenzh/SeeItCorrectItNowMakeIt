@@ -46,7 +46,7 @@
     color: #ffffff;
 }
 .active, .top-menu ul li:hover{
-   background: rgba(0,0,0,0.2);
+   background: #C0C0C0;
     border-radius: 3px;
 
 }
