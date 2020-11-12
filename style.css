@@ -199,7 +199,7 @@ nav li:hover .menu-sub{
 #footer {
     padding-top: 50px;
     background-color: #0b0b0b;
-    height: 250px;
+    height: 300px;
     margin: auto;
     border: solid 2px black;
     text-align: center;
@@ -207,9 +207,14 @@ nav li:hover .menu-sub{
 }
 .contact{
     float: left;
-    padding-left: 10px;
+
 }
-h4 {
+.contact p{
+    padding-left: 50px;
+    text-align: left;
+}
+
+h5 {
     color: #ffff;
     padding: 10px;
 
@@ -226,7 +231,9 @@ h4 {
 .info{
     text-align: center;
 }
-.menu-footer{
+.menu h5{
+    text-align: left;
+
 
 }
 
@@ -240,6 +247,16 @@ h4 {
     padding: 10px;
     color: #ffffff;
     text-decoration: none;
+}
+.menu-footer a:hover{
+    text-decoration: underline;
+}
+.info p a{
+    text-decoration: none;
+    color: #fff;
+}
+.info p{
+    padding: 10px;
 }
 
 
