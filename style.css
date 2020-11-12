@@ -126,21 +126,48 @@ nav li:hover .menu-sub{
 
 /*-----main-----*/
 
-.news\&events{
-    background-color: #ffffff;
-    height: 400px;
-    font-size: 24px;
-    margin: 0
+
+.container2{
+    display: flex;
+    padding-top: 5px;
+    height: 250px;
 
 }
-.announcements{
-    background-color: #C0C0C0;
+
+.news\&events {
+    background-color: #E441F0;
+    font-size: 24px;
+    margin: 0;
+    width: 50%;
+
+}
+
+.announcements {
+    background-color: #DA6582;
     padding: 0;
-    height: 400px;
     font-size: 24px;
-    margin: 0
+    margin: 0;
+    width: 50%;
 
 }
+
+.container2 h2{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.container2 p{
+    padding-top: 15px;
+    padding-left: 10px;
+    color: #0b0b0b;
+}
+.container2 a:hover{
+    color: white;
+}
+.container2 a{
+    color: #0b0b0b;
+}
+
 
 /*----Articles----*/
 
