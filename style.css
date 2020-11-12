@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
 }
-
+-
 *{
   padding: 0;
     margin: 0;
@@ -173,7 +173,7 @@ nav li:hover .menu-sub{
     padding-bottom: 100px;
     height: auto;
     font-size: 24px;
-    margin: 0;
+    margin: 0px;
 }
 
 .flex-container {
@@ -198,7 +198,6 @@ nav li:hover .menu-sub{
 /*-----footer----*/
 #footer {
     padding-top: 50px;
-    padding-bottom: 50px;
     background-color: #0b0b0b;
     height: 250px;
     margin: auto;
