@@ -93,6 +93,7 @@ nav li:hover .menu-sub{
 .menu-sub a{
     padding: .75em;
     margin-bottom: .2em;
+     font-weight: normal;
 }
 .menu-sub a:hover{
     text-decoration: underline;
