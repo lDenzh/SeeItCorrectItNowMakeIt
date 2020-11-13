@@ -142,15 +142,11 @@ nav li:hover .menu-sub{
     font-size: 24px;
     margin: 0;
     width: 50%;
-<<<<<<< Updated upstream
     border-width:4px;
     border-style:solid;
     border-color: palevioletred;
     contain: content;
-=======
     text-align: center;
->>>>>>> Stashed changes
-
 }
 
 .announcements {
@@ -158,13 +154,10 @@ nav li:hover .menu-sub{
     font-size: 24px;
     margin: 0;
     width: 50%;
-<<<<<<< Updated upstream
     border-width:4px;
     border-style:solid;
     border-color:red;
-=======
     text-align: center;
->>>>>>> Stashed changes
 
 }
 
