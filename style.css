@@ -145,6 +145,7 @@ nav li:hover .menu-sub{
     border-width:4px;
     border-style:solid;
     border-color: palevioletred;
+    contain: content;
 
 }
 
