@@ -170,8 +170,8 @@ nav li:hover .menu-sub{
     padding: 10px;
     color: #0b0b0b;
 }
-.container2 a:hover{
-    color: white;
+.container2 a:hover {
+    text-decoration: underline;
 }
 .container2 a{
     color: #0b0b0b;
