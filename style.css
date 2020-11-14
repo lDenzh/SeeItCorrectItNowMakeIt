@@ -143,7 +143,7 @@ nav li:hover .menu-sub {
 }
 .heroContents p{
 
-    color: greenyellow;
+    color: #ffffff;
     font-weight: bold;
     font-size: 16px;
     padding-top: 450px;
@@ -152,7 +152,7 @@ nav li:hover .menu-sub {
 }
 
 .arrow {
-    border: solid greenyellow;
+    border: solid #ffffff;
     border-width: 0 9px 9px 0;
     display: inline-block;
     padding: 9px;
@@ -165,6 +165,20 @@ nav li:hover .menu-sub {
     -webkit-transform: rotate(45deg);
 }
 
+@media screen and (max-width: 968px) {
+    .heroContents p{
+        padding-top: 200px;
+        padding-left: 60px;
+        float: left;
+    }
+
+}
+@media screen and (max-width: 680px) {
+    .heroContents p {
+        padding-top: 100px;
+        padding-left: 60px;
+    }
+    }
 /*-----main-----*/
 
 
