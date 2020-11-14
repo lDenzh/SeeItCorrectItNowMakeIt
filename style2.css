@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.body-container {
+    display: flex;
+    margin: 0% 10% 0% 10%;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-width: thin;
+    padding: 20px;
+}
+
+.body-container img {
+    border-style: dashed;
+    border-width: thick;
+    position: relative;
+}
+
+.text-container {
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+/*test */
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content2 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content2 a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-content2 {
+display: block;
+}
+/* test */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content p, .dropdown-content2 p {
+  padding: 0px 16px;
+  text-decoration: underline;
+  display: block;
+  text-align: left;
+    
+}
+
+ .header-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.header-container h1 {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.header-container img {
+    float: left;
+}
+
+@media only and screen (max-width: 600px) {
+    
+    .text-container {
+    display: flex;
+    margin: 0% 5% 0% 5%;
+    border-style: solid;
+    border-width: thick;
+    background-color: green;
+    }
+}
