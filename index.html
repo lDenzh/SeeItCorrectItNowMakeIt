@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Hamburger menu library-->
     <title>University of Advancing Technology</title>
@@ -170,13 +176,35 @@
                     </div>
                 </li>
             </ul>
+
+            <!-- Mobile Navigation Menu
+             https://www.w3schools.com/howto/howto_js_mobile_navbar.asp-->
+            <div class="topnav">
+                <a href="#home" class="active">Logo</a>
+
+                <div id="myLinks">
+                    <a href="#">Degrees</a>
+                    <a href="#">Admissions</a>
+                    <a href="#">Academics</a>
+                    <a href="#">Student Experience</a>
+                    <a href="#">About</a>
+
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
         </div>
+
+
+
     </nav>
 
 
     <div class="heroContents">
-        <h1></h1>
-        <p></p>
+        <h1>university <br> of <br> advancing technology</h1>
+        <p>scroll down___<i class="arrow down"></i></p>
+        <i class="fas fa-angle-double-down"></i>
     </div>
 
 </div>
@@ -197,55 +225,43 @@
     </div>
 </div>
 <div class="articles">
-    <h2>Articles</h2>
+    <h3>Articles</h3>
         <div class="flex-container">
-            <!-- Skal legge til text inne i bildene hvis jeg får til -->
-            <div><a href="https://blog.uat.edu/russia-actually-arrested-a-russian-hacker?_ga=2.234431705.652807388.1605181461-1423051678.1605005523" target="_blank"><img border="3px" alt="Russian Hacker" src="https://blog.uat.edu/hubfs/sdqd.jpg" width="362" height="305"><div class ="undertext"><p>RUSSIA ACTUALLY ARRESTED<br> A RUSSIAN HACKER</p></div></a></div>
-            
+            <div><a href="https://blog.uat.edu/russia-actually-arrested-a-russian-hacker?_ga=2.234431705.652807388.1605181461-1423051678.1605005523" target="_blank"><img border="3px" alt="Russian Hacker" src="https://blog.uat.edu/hubfs/sdqd.jpg" width="250" height="250"></a></div>
 
-            <div><a href="https://blog.uat.edu/bug-bounties-in-2020?_ga=2.234431705.652807388.1605181461-1423051678.1605005523" target="_blank"><img border="3px" alt="Bug Bounties" src="https://blog.uat.edu/hs-fs/hubfs/bug_bounty-100701715-large.jpg?width=700&name=bug_bounty-100701715-large.jpg" width="362" height="305"><div class ="undertext"><p>BUG BOUNTIES IN <br>2020</p></div></a></div>
+            <div><a href="https://blog.uat.edu/bug-bounties-in-2020?_ga=2.234431705.652807388.1605181461-1423051678.1605005523" target="_blank"><img border="3px" alt="Bug Bounties" src="https://blog.uat.edu/hs-fs/hubfs/bug_bounty-100701715-large.jpg?width=700&name=bug_bounty-100701715-large.jpg" width="250" height="250"></a></div>
 
-            <div><a href="https://www.uattech.com/from-student-to-coworker-perimeter83-expands-offerings-for-uat-alum?__hstc=214042312.0d9d8ee33cb249ca21d440b38120232f.1605005524956.1605025934381.1605181462608.5&__hssc=214042312.1.1605181462608&__hsfp=2518874970&_ga=2.225510877.652807388.1605181461-1423051678.1605005523" target="_blank"><img border="3px" alt="From Student to Coworker" src="https://www.uattech.com/hubfs/IMG_9719.jpg" width="362" height="305"><div class ="undertext"><p>FROM STUDENT TO COWORKER<br>PERIMETER83...</p></div></a></div>
+            <div><a href="https://www.uattech.com/from-student-to-coworker-perimeter83-expands-offerings-for-uat-alum?__hstc=214042312.0d9d8ee33cb249ca21d440b38120232f.1605005524956.1605025934381.1605181462608.5&__hssc=214042312.1.1605181462608&__hsfp=2518874970&_ga=2.225510877.652807388.1605181461-1423051678.1605005523" target="_blank"><img border="3px" alt="From Student to Coworker" src="https://www.uattech.com/hubfs/IMG_9719.jpg" width="250" height="250"></a></div>
 
-           <div><a href="https://blog.uat.edu/recording-dreams?_ga=2.204328151.652807388.1605181461-1423051678.1605005523" target="_blank"><img border="3px" alt="Recording dreams" src="https://blog.uat.edu/hubfs/MRI_free.jpg" width="362" height="305"><div class ="undertext"><p>SCIENCE OF <br>RECORDING DREAMS</p></div></a></div>
+           <div><a href="https://blog.uat.edu/recording-dreams?_ga=2.204328151.652807388.1605181461-1423051678.1605005523" target="_blank"><img border="3px" alt="Recording dreams" src="https://blog.uat.edu/hubfs/MRI_free.jpg" width="250" height="250"></a></div>
 
-           <div><a href="https://www.uattech.com/an-interview-with-student-dominique-faulkner-usaf-veteran?__hstc=214042312.0d9d8ee33cb249ca21d440b38120232f.1605005524956.1605025934381.1605181462608.5&__hssc=214042312.8.1605181462608&__hsfp=2518874970&_ga=2.171339623.652807388.1605181461-1423051678.1605005523" target="_blank"><img border="3px" alt="Interview with student" src="https://www.uattech.com/hubfs/Dominique.jpeg" width="362" height="305"><div class ="undertext"><p>AN INTERVIEW WITH STUDENT <br>DOMINIQUE FAULKNER</p></div></a></div>
+           <div><a href="https://www.uattech.com/an-interview-with-student-dominique-faulkner-usaf-veteran?__hstc=214042312.0d9d8ee33cb249ca21d440b38120232f.1605005524956.1605025934381.1605181462608.5&__hssc=214042312.8.1605181462608&__hsfp=2518874970&_ga=2.171339623.652807388.1605181461-1423051678.1605005523" target="_blank"><img border="3px" alt="Interview with student" src="https://www.uattech.com/hubfs/Dominique.jpeg" width="250" height="250"></a></div>
 
-           <div><a href="https://blog.uat.edu/the-evolution-of-robotics?_ga=2.163129851.652807388.1605181461-1423051678.1605005523" target="_blank"><img border="3px" alt="Evolution of Robotics" src="https://blog.uat.edu/hubfs/Programmatic/Robotics/banner-1.jpg" width="362" height="305"><div class ="undertext"><p>THE EVOLUTION OF <br>ROBOTICS</p></div></a></div>
+           <div><a href="https://blog.uat.edu/the-evolution-of-robotics?_ga=2.163129851.652807388.1605181461-1423051678.1605005523" target="_blank"><img border="3px" alt="Evolution of Robotics" src="https://blog.uat.edu/hubfs/Programmatic/Robotics/banner-1.jpg" width="250" height="250"></a></div>
         </div>
 
-    </div>
+</div>
+
+
 <footer>
     <div id="footer">
         <div class="contact">
-            <h5>Contact</h5>
-            <p>2625 W. Baseline Road <br>
-                Tempe, AZ 85283-1056</p><br>
-            <p>Main Telephone: 602-383-8228 <br>
-                Out of State: <br> 877-UAT-GEEK (877-828-4335)<br>
-                Fax: 602-383-8222</p>
-        </div>
+            <p><b>CONTACT US</b><br><br><b>Address:  </b> 2625 W. Baseline Road <br>Tempe, AZ 85283-1056<br> <br>Main Telephone: 602-383-8228 <br>Out of State: 877-UAT-GEEK (877-828-4335)
+                <br>Fax: 602-383-8222
+                <br><br> <br>UAT offices are open Monday through Thursday from 8 a.m. to 6 p.m. (MST), and Fridays from 8 a.m. to 5 p.m. (MST).</p>
 
-       <div class="menu">
-            <h5>Menu</h5>
-
-            <ul class="menu-footer">
-                <li><a href="https://www.uat.edu/advancing-technology-degrees">Degrees</a></li>
-                <li><a href="https://www.uat.edu/private-consultation">Admissions</a></li>
-                <li><a href="https://www.uat.edu/synchronic-learning">Academics</a></li>
-                <li><a href="https://www.uat.edu/see-technology-college">Student Experience</a></li>
-                <li><a href="https://www.uat.edu/about-uat">About UAT</a></li>
-                <li><a href="https://www.uat.edu/events">News & Events</a></li>
-            </ul>
-        </div>
-        <div class="info">
-            <h5>Info</h5>
-            <p>
-                <a href="https://uatfastapp.com/LPR.asp?L=284&__hstc=214042312.0831c3ddaed096efd5a11836c4409164.1601659783741.1605201043074.1605206156254.18&__hssc=214042312.2.1605206156254&__hsfp=2518874970&_ga=2.114925575.162739185.1605020273-951301394.1601659774">Apply
-                    to UAT</a></p>
-            <p><a href="https://www.uat.edu/request-info">Request Info</a></p>
         </div>
     </div>
 </footer>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
 </body>
 </html>
