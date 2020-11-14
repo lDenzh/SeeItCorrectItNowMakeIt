@@ -174,17 +174,32 @@ nav li:hover .menu-sub {
 
 }
 @media screen and (max-width: 680px) {
+
+    .container2{
+        height: auto;
+    }
+
     .heroContents p {
         padding-top: 100px;
         padding-left: 60px;
     }
+    .container2 h2{
+        font-size: 20px;
+        background: blue;
+        color: white;
+    }
+    .container2 p{
+        font-size: 16px;
+    }
+
+
     }
 /*-----main-----*/
 
 
 .container2 {
     display: flex;
-    height: 350px;
+    height: auto;
     padding-top: 5px;
     border-width:2px;
     border-style:solid;
@@ -204,6 +219,7 @@ nav li:hover .menu-sub {
     border-color: palevioletred;
     contain: content;
     text-align: center;
+
 }
 
 .announcements {
@@ -221,6 +237,8 @@ nav li:hover .menu-sub {
 .container2 h2 {
     padding-top: 10px;
     padding-left: 5px;
+    background: blue;
+    color: white;
 }
 
 .container2 p {
@@ -288,7 +306,7 @@ nav li:hover .menu-sub {
 }
 
 .contact {
-    float: left;
+    text-align: center;
 
 }
 h4 {
