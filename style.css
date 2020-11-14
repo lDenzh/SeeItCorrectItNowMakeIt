@@ -86,6 +86,9 @@ nav li:hover a {
     display: none;
     color: #fff;
 }
+.menu-sub a{
+    font-weight: normal;
+}
 
 nav li:hover .menu-sub {
     display: block;
@@ -147,7 +150,7 @@ nav li:hover .menu-sub {
     font-weight: bold;
     font-size: 16px;
     padding-top: 450px;
-    padding-right: 150px;
+    padding-right: 200px;
     float: right;
 }
 
@@ -381,14 +384,15 @@ h4 {
 
 
 @media screen and (max-width: 970px){
-    /* Style the navigation menu */
+
+    /*hamburgermenu*/
     .topnav {
         overflow: hidden;
         background-color: #333;
         position: relative;
     }
 
-    /* Hide the links inside the navigation menu (except for logo/home) */
+
     .topnav #myLinks {
         display: none;
     }
@@ -397,7 +401,7 @@ h4 {
     }
 
 
-    /* Style navigation menu links */
+
     .topnav a {
         color: white;
         padding: 14px 16px;
@@ -406,7 +410,7 @@ h4 {
         display: block;
     }
 
-    /* Style the hamburger menu */
+    /* hamburger icon */
     .topnav a.icon {
         background: black;
         display: block;
@@ -415,13 +419,13 @@ h4 {
         top: 0;
     }
 
-    /* Add a grey background color on mouse-over */
+
     .topnav a:hover {
         background-color: #ddd;
         color: black;
     }
 
-    /* Style the active link (or home/logo) */
+
     .active {
         background-color: #ffffff;
         color: #0b0b0b;
