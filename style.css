@@ -181,7 +181,13 @@ nav li:hover .menu-sub {
     margin: 0;
     display: flow;
 }
+.norsk-norsk{
+    padding: 0;
+    margin: 0;
+    background-color: white;
 
+
+}
 
 
 /*-----main-----*/
@@ -262,7 +268,10 @@ nav li:hover .menu-sub {
     .container2 p{
         font-size: 16px;
     }
-
+    .norsk-norsk{
+        float: right;
+        background-color: white;
+    }
 
 }
 
@@ -397,7 +406,7 @@ h4 {
     /*hamburgermenu*/
     .topnav {
         overflow: hidden;
-        background-color: #333;
+        background-color: #fff;
         position: relative;
     }
 
@@ -438,6 +447,10 @@ h4 {
     .active {
         background-color: #ffffff;
         color: #0b0b0b;
+    }
+    .norsk-norsk{
+        float: right;
+        background-color: white;
     }
 }
 
