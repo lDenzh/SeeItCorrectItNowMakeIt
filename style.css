@@ -151,6 +151,8 @@ nav li:hover .menu-sub {
     font-size: 16px;
     padding-top: 450px;
     padding-left: 30px;
+
+
 }
 
 .arrow {
@@ -404,9 +406,8 @@ h4 {
     /*hamburgermenu*/
     .topnav {
         overflow: hidden;
-        background-color: #444;
+        background-color: #fff;
         position: relative;
-
     }
 
 
@@ -449,7 +450,7 @@ h4 {
         color: #0b0b0b;
     }
     .norsk-norsk{
-
+        float: right;
         background-color: white;
     }
 }
