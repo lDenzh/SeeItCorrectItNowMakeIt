@@ -406,7 +406,7 @@ h4 {
     /*hamburgermenu*/
     .topnav {
         overflow: hidden;
-        background-color: #fff;
+        background-color: #444;
         position: relative;
     }
 
@@ -450,7 +450,6 @@ h4 {
         color: #0b0b0b;
     }
     .norsk-norsk{
-        float: right;
         background-color: white;
     }
 }
