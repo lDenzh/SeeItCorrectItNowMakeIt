@@ -150,8 +150,8 @@ nav li:hover .menu-sub {
     font-weight: bold;
     font-size: 16px;
     padding-top: 450px;
-
-    float: left;
+    padding-left: 30px;
+   
 }
 
 .arrow {
