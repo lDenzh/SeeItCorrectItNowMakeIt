@@ -6,12 +6,20 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
-    object-fit: contain;
+     object-fit: contain;
 }
 
-.text-container {
+#image {
+    padding: 20px;
 }
 
+#image img {
+    border: 2px;
+    border-style: solid;
+}
+
+.imagetxt {
+}
 
 .navbar {
   overflow: hidden;
@@ -126,4 +134,24 @@ display: block;
 
 .header-container img {
     float: left;
+}
+/*------Foooter------*/
+#footer {
+    padding-top: 20px;
+    background-color: #333;
+    height: 300px;
+    margin: auto;
+    border: solid 2px #333;
+    text-align: center;
+
+}
+
+.contact {
+    text-align: center;
+
+}
+
+.contact p {
+    color: #fff;
+    background-color: #333;
 }
