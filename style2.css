@@ -4,21 +4,14 @@ body {
 
 .body-container {
     display: flex;
-    margin: 0% 10% 0% 10%;
     flex-wrap: wrap;
-    border-style: solid;
-    border-width: thin;
     padding: 20px;
-}
-
-.body-container img {
-    border-style: dashed;
-    border-width: thick;
-    position: relative;
+    object-fit: contain;
 }
 
 .text-container {
 }
+
 
 .navbar {
   overflow: hidden;
@@ -33,6 +26,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
 }
+
 
 .dropdown {
   float: left;
@@ -51,7 +45,7 @@ body {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #872f3f;
 }
 
 .dropdown-content {
@@ -70,6 +64,7 @@ body {
   text-decoration: none;
   display: block;
   text-align: left;
+  font-size: 12px;
 }
 
 .dropdown-content a:hover {
@@ -92,6 +87,7 @@ body {
   text-decoration: none;
   display: block;
   text-align: left;
+  font-size: 12px;
 }
 
 .dropdown-content2 a:hover {
@@ -130,15 +126,4 @@ display: block;
 
 .header-container img {
     float: left;
-}
-
-@media only and screen (max-width: 600px) {
-    
-    .text-container {
-    display: flex;
-    margin: 0% 5% 0% 5%;
-    border-style: solid;
-    border-width: thick;
-    background-color: green;
-    }
 }
