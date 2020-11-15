@@ -176,34 +176,14 @@ nav li:hover .menu-sub {
     }
 
 }
-@media screen and (max-width: 680px) {
 
-    .container2{
-        height: auto;
-    }
-
-    .heroContents p {
-        padding-top: 100px;
-        padding-left: 60px;
-    }
-    .container2 h2{
-        font-size: 20px;
-        background: blue;
-        color: white;
-    }
-    .container2 p{
-        font-size: 16px;
-    }
-
-
-    }
 /*-----main-----*/
 
 
 .container2 {
     display: flex;
     height: auto;
-    padding-top: 5px;
+    width: 100%;
     border-width:2px;
     border-style:solid;
     border-color:black;
@@ -216,7 +196,7 @@ nav li:hover .menu-sub {
     background-color: #fff;
     font-size: 24px;
     margin: 0;
-    width: 50%;
+    width: 100%;
     border-width:4px;
     border-style:solid;
     border-color: palevioletred;
@@ -229,7 +209,7 @@ nav li:hover .menu-sub {
     background-color: #fff;
     font-size: 24px;
     margin: 0;
-    width: 50%;
+    width: 100%;
     border-width:4px;
     border-style:solid;
     border-color:red;
@@ -255,6 +235,28 @@ nav li:hover .menu-sub {
 .container2 a {
     color: #0b0b0b;
     text-decoration: none;
+}
+@media screen and (max-width: 680px) {
+
+    .container2{
+        height: auto;
+        width: 100%;
+    }
+
+    .heroContents p {
+        padding-top: 100px;
+        padding-left: 60px;
+    }
+    .container2 h2{
+        font-size: 20px;
+        background: blue;
+        color: white;
+    }
+    .container2 p{
+        font-size: 16px;
+    }
+
+
 }
 
 
